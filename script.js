@@ -1,9 +1,17 @@
-const getBtn = document.getElementById("get-btn");
-const postBtn = document.getElementById("post-btn");
+const loadRulesButton = document.getElementById("loadRulesButton");
+const rulesList = document.getElementById("rulesList");
 
-const getData = () => {};
-
-const sendData = () => {};
-
-getBtn.addEventListener("click", getData);
-postBtn.addEventListener("click", sendData);
+loadRulesButton.addEventListener("click", () => {
+  fetch("becode.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((rule) => {
+        const listItem = document.createElement("li");
+        listItem.textContent = rule;
+        rulesList.appendChild(listItem);
+      });
+    })
+    .catch((error) => {
+      console.log("There was an error!", error);
+    });
+});

@@ -1,4 +1,4 @@
-//fetch API works you pass the url as the first proprety then it has a second proprety
+// fetch API works you pass the url as the first proprety then it has a second proprety
 
 // console;
 // fetch("https://reqres.in/api/users")
@@ -16,4 +16,4 @@
 //   .then((data) => console.log(data))
 //   .catch((error) => console.log("ERROR"));
 
-fetch("becode.json").then((res) => console.log(res));
+// fetch("becode.json").then((res) => console.log(res));
