@@ -5,13 +5,15 @@
 //   //for the fetch to return us a response use dot then
 //   .then((res) => console.log(res));
 
-fetch('https://reqres.in/api/users')
-.then(res => {
-   if(res.ok) {
-    console.log('SUCCES')
-   } else {
-    console.log('Not Successful')
-   }
-})
-.then(data => console.log(data))
-.catch(error => console.log('ERROR'))
+// fetch("becode.json")
+//   .then((res) => {
+//     if (res.ok) {
+//       console.log("SUCCES");
+//     } else {
+//       console.log("Not Successful");
+//     }
+//   })
+//   .then((data) => console.log(data))
+//   .catch((error) => console.log("ERROR"));
+
+fetch("becode.json").then((res) => console.log(res));
