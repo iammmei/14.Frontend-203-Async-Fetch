@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+
+body {
+  background-image: url("whatistime.jpg");
+  font-family: "Tilt Prism", cursive;
+  font-size: 30px;
+}
+input {
+  width: 45%;
+  height: 10%;
+  border: solid 3px #3d270f;
+}
+.container {
+  display: block;
+  align-items: center;
+  text-align: center;
+  background-color: #f4eacf;
+  height: 300px;
+  margin: auto;
+  width: 50%;
+  border: solid #3d270f 5px;
+  padding: 10px;
+}
+button {
+  border: none;
+  padding: 15px 32px;
+  background-color: #3d270f;
+  color: antiquewhite;
+}
+h1 {
+  margin: 50px;
+}
+img {
+  margin: 40px;
+}
