@@ -1,4 +1,4 @@
-const loadRulesButton = document.getElementById("loadRulesButton");
+const loadRulesButton = document.getElementById("RulesButton");
 const rulesList = document.getElementById("rulesList");
 
 loadRulesButton.addEventListener("click", () => {
